@@ -1,0 +1,16 @@
+PODS:
+  - JVMiddleTextView (0.1.0)
+
+DEPENDENCIES:
+  - JVMiddleTextView (from `../`)
+
+EXTERNAL SOURCES:
+  JVMiddleTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVMiddleTextView: 0cc52bc525ee32d1ddb582e9e344fb183fc1fd4b
+
+PODFILE CHECKSUM: 5cae73d455a1b49d28f5680e483a895f76304574
+
+COCOAPODS: 1.6.0.beta.1

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVMiddleTextView_Tests' do
+  pod 'JVMiddleTextView', :path => '../'
+  
+  
+end
