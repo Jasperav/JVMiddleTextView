@@ -1,13 +1,15 @@
-public enum Mode {
-    case normal, loading
-}
-
-public struct StartMode {
-    public let loadingText: String
-    public let startMode: Mode
+public extension MiddleTextView {
+    enum Mode {
+        case normal, loading
+    }
     
-    public init(loadingText: String, startMode: Mode) {
-        self.loadingText = loadingText
-        self.startMode = startMode
+    struct StartMode {
+        public let loadingText: String
+        public let startMode: Mode
+        
+        public init(loadingText: String, startMode: Mode) {
+            self.loadingText = loadingText
+            self.startMode = startMode
+        }
     }
 }

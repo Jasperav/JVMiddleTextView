@@ -55,6 +55,7 @@
 		626A37F559FA67694483D6F9F9014F21 /* MirrorAligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688793E8FD3E6A64A5AFE5714492E588 /* MirrorAligment.swift */; };
 		62D0C39817ABE14D5946463A178D508E /* JVCAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF338CD332F46F176F6B28E03199E6BB /* JVCAGradientLayerExtensions.swift */; };
 		648671D01B3C3C04DCEDBF6173C8323F /* JVFontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB24D328BDFA3F31671E69337B66C2 /* JVFontUtils.swift */; };
+		69C4F78A21FF9FBE00494DCC /* SingleParameterInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */; };
 		6A1D25432F6F08F9FFB5B735E959F394 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6B47D9158DF572DB8CF230D9C9F93 /* JVContentType.framework */; };
 		6CF5312458E0AE31D1981723EB631E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4FB90EEB74B33CF149E2C051B55E74 /* Foundation.framework */; };
 		6D1A6D3FEF43DE061530469722C0CB7D /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1188892FD62EC3A637E8F4018DA98F02 /* JVConstraintEdges.framework */; };
@@ -73,7 +74,6 @@
 		893D77E7038A238B6E6FAFF851D45A70 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B99CC990582664FBE4D785DE4E5C8 /* Copyable.swift */; };
 		8A6E2BAB8A6BED08B53EF4B7E5A79184 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6CAB439DBD6CCAABDE588286D7F52 /* StringExtensions.swift */; };
 		8B3BE3D41D1791A78017F16A5B74FB4C /* JVMiddleTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DE704D1BD9F642474C55E931951840 /* JVMiddleTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BEFE76CADB42A874349037210337CC3 /* MiddleTextViewSingleParameterInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818946F5343A83C57AC6463D7E856380 /* MiddleTextViewSingleParameterInitializer.swift */; };
 		8D6399F3E8D6EB9E3402141740D26380 /* JVCurrentDevice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0870DFB25A7DDC02A3FBE9DF93632F5F /* JVCurrentDevice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D8AF65311DE2B7601DE2336CC979875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4FB90EEB74B33CF149E2C051B55E74 /* Foundation.framework */; };
 		8E64B6EFD7450C1346F2F0544525F4D4 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A34CD2C1CF358E0D7DB789543E0753 /* JVSizeable.framework */; };
@@ -432,6 +432,7 @@
 		63EAF3ADBC01F9C90384969A4C689E47 /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6811E8A68A3D49E0E899DE719A06CF8D /* JVMiddleTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVMiddleTextView.modulemap; sourceTree = "<group>"; };
 		688793E8FD3E6A64A5AFE5714492E588 /* MirrorAligment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MirrorAligment.swift; path = JVView/Classes/MirrorAligment.swift; sourceTree = "<group>"; };
+		69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleParameterInitializable.swift; path = JVMiddleTextView/Classes/SingleParameterInitializable.swift; sourceTree = "<group>"; };
 		69EC5FFD40B016519879229A8A25B75B /* JVCurrentDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVCurrentDevice-Info.plist"; sourceTree = "<group>"; };
 		6ABD54166015DC0DFEDDEA1E8A74A5F5 /* JVCAShapeLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
 		6D2F53077BA3D05D723F8515EA6E015F /* JVCAGradientLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
@@ -450,7 +451,6 @@
 		79462DAB2F71844EDE2771DEDFC1D5EE /* ContentTypeStarButtonTextEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonTextEdges.swift; path = JVView/Classes/ContentTypeStarButtonTextEdges.swift; sourceTree = "<group>"; };
 		7CDD2951D5A0F957475316E65C1A1767 /* Mode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mode.swift; path = JVMiddleTextView/Classes/Mode.swift; sourceTree = "<group>"; };
 		813BE499981D4FC5AF7CEF3F591DCE42 /* JVView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVView-umbrella.h"; sourceTree = "<group>"; };
-		818946F5343A83C57AC6463D7E856380 /* MiddleTextViewSingleParameterInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiddleTextViewSingleParameterInitializer.swift; path = JVMiddleTextView/Classes/MiddleTextViewSingleParameterInitializer.swift; sourceTree = "<group>"; };
 		826787C62B2E939D099DAA0BFF775919 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
 		830FF71AE1F1C24EFC414403DFDF3C48 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		84CE88300AC746496F67A43C1791640F /* JVMiddleTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVMiddleTextView.xcconfig; sourceTree = "<group>"; };
@@ -830,10 +830,10 @@
 			isa = PBXGroup;
 			children = (
 				9CB66BE2F13FD1444C2856A7CA4D2A88 /* MiddleTextView.swift */,
-				818946F5343A83C57AC6463D7E856380 /* MiddleTextViewSingleParameterInitializer.swift */,
 				7CDD2951D5A0F957475316E65C1A1767 /* Mode.swift */,
 				8FB380E65E5C817C6D7B608CC9D570C3 /* Pod */,
 				A70B642F1698CF7B46AF511A80A991CB /* Support Files */,
+				69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */,
 			);
 			name = JVMiddleTextView;
 			path = ../..;
@@ -1830,8 +1830,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2635393E508AA4CE60322388DAD8F9 /* JVMiddleTextView-dummy.m in Sources */,
+				69C4F78A21FF9FBE00494DCC /* SingleParameterInitializable.swift in Sources */,
 				B8744E7100FB0AC0C6F624FB7595F6D7 /* MiddleTextView.swift in Sources */,
-				8BEFE76CADB42A874349037210337CC3 /* MiddleTextViewSingleParameterInitializer.swift in Sources */,
 				7BA8BB14C72EBF9270F98A27AA2337BC /* Mode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -32,7 +32,7 @@ open class MiddleTextView: UIView, SingleParameterInitializable {
         change(mode: startMode?.startMode ?? .normal)
     }
     
-    public required convenience init(from: MiddleTextViewSingleParameterInitializer) {
+    public required convenience init(from: SingleParameterInitializer) {
         self.init(normalText: from.normalText, startMode: from.startMode)
     }
     
@@ -66,6 +66,7 @@ open class MiddleTextView: UIView, SingleParameterInitializable {
         
         loadingIndicator.bottomAnchor.constraint(equalTo: centerYAnchor, constant: -MiddleTextView.spacingFromMiddle).isActive = true
     }
+
 }
 
 
