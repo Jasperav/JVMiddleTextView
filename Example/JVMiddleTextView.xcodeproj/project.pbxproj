@@ -186,6 +186,7 @@
 				"${BUILT_PRODUCTS_DIR}/JVMiddleTextView/JVMiddleTextView.framework",
 				"${BUILT_PRODUCTS_DIR}/JVRestartable/JVRestartable.framework",
 				"${BUILT_PRODUCTS_DIR}/JVShapeHalfMoon/JVShapeHalfMoon.framework",
+				"${BUILT_PRODUCTS_DIR}/JVSingleParameterInitializable/JVSingleParameterInitializable.framework",
 				"${BUILT_PRODUCTS_DIR}/JVSizeable/JVSizeable.framework",
 				"${BUILT_PRODUCTS_DIR}/JVView/JVView.framework",
 			);
@@ -204,6 +205,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVMiddleTextView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVRestartable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVShapeHalfMoon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVSingleParameterInitializable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVSizeable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVView.framework",
 			);
@@ -298,6 +300,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -343,6 +346,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

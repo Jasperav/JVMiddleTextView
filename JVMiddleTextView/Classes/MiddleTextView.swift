@@ -1,17 +1,20 @@
 import UIKit
 import JVView
 import JVConstraintEdges
+import JVSingleParameterInitializable
 
-open class MiddleTextView: UIView {
+open class MiddleTextView: UIView, SingleParameterInitializable {
     
+    /// Content type for the label
     public static var contentType: ContentTypeJVLabelText!
+    
     private static let constraintEdgesWidth: CGFloat = 5
     private static let spacingFromMiddle: CGFloat = 5
     
     private let normalText: String
     private let loadingText: String?
     private let label: JVLabel
-    private let loadingIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    private let loadingIndicator = UIActivityIndicatorView(style: .gray)
     
     public init(normalText: String, startMode: StartMode? = nil) {
         self.normalText = normalText
@@ -27,6 +30,10 @@ open class MiddleTextView: UIView {
         }
         
         change(mode: startMode?.startMode ?? .normal)
+    }
+    
+    public required convenience init(from: MiddleTextViewSingleParameterInitializer) {
+        self.init(normalText: from.normalText, startMode: from.startMode)
     }
     
     public required init?(coder aDecoder: NSCoder) {
