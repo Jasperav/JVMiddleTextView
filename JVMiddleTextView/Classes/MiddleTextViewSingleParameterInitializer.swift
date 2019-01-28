@@ -1,6 +1,6 @@
 public struct MiddleTextViewSingleParameterInitializer {
-    let normalText: String
-    let startMode: StartMode?
+    public let normalText: String
+    public let startMode: StartMode?
     
     public init(normalText: String, startMode: StartMode? = nil) {
         self.normalText = normalText

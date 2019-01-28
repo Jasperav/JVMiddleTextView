@@ -3,8 +3,8 @@ public enum Mode {
 }
 
 public struct StartMode {
-    let loadingText: String
-    let startMode: Mode
+    public let loadingText: String
+    public let startMode: Mode
     
     public init(loadingText: String, startMode: Mode) {
         self.loadingText = loadingText
