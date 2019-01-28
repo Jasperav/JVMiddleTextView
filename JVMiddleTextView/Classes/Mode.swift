@@ -1,14 +1,14 @@
 public extension MiddleTextView {
     enum Mode {
-        case normal, loading
+        case querying, notQuerying
     }
     
     struct StartMode {
-        public let loadingText: String
+        public let queryingText: String
         public let startMode: Mode
         
-        public init(loadingText: String, startMode: Mode) {
-            self.loadingText = loadingText
+        public init(queryingText: String, startMode: Mode) {
+            self.queryingText = queryingText
             self.startMode = startMode
         }
     }

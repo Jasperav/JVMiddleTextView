@@ -1,10 +1,10 @@
 public extension MiddleTextView {
     struct SingleParameterInitializer {
-        public let normalText: String
+        public let notQueryingText: String
         public let startMode: StartMode?
         
-        public init(normalText: String, startMode: StartMode? = nil) {
-            self.normalText = normalText
+        public init(notQueryingText: String, startMode: StartMode? = nil) {
+            self.notQueryingText = notQueryingText
             self.startMode = startMode
         }
     }
