@@ -55,7 +55,6 @@
 		626A37F559FA67694483D6F9F9014F21 /* MirrorAligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688793E8FD3E6A64A5AFE5714492E588 /* MirrorAligment.swift */; };
 		62D0C39817ABE14D5946463A178D508E /* JVCAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF338CD332F46F176F6B28E03199E6BB /* JVCAGradientLayerExtensions.swift */; };
 		648671D01B3C3C04DCEDBF6173C8323F /* JVFontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB24D328BDFA3F31671E69337B66C2 /* JVFontUtils.swift */; };
-		69C4F78A21FF9FBE00494DCC /* SingleParameterInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */; };
 		6A1D25432F6F08F9FFB5B735E959F394 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD6B47D9158DF572DB8CF230D9C9F93 /* JVContentType.framework */; };
 		6CF5312458E0AE31D1981723EB631E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4FB90EEB74B33CF149E2C051B55E74 /* Foundation.framework */; };
 		6D1A6D3FEF43DE061530469722C0CB7D /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1188892FD62EC3A637E8F4018DA98F02 /* JVConstraintEdges.framework */; };
@@ -432,7 +431,6 @@
 		63EAF3ADBC01F9C90384969A4C689E47 /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6811E8A68A3D49E0E899DE719A06CF8D /* JVMiddleTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVMiddleTextView.modulemap; sourceTree = "<group>"; };
 		688793E8FD3E6A64A5AFE5714492E588 /* MirrorAligment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MirrorAligment.swift; path = JVView/Classes/MirrorAligment.swift; sourceTree = "<group>"; };
-		69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleParameterInitializable.swift; path = JVMiddleTextView/Classes/SingleParameterInitializable.swift; sourceTree = "<group>"; };
 		69EC5FFD40B016519879229A8A25B75B /* JVCurrentDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVCurrentDevice-Info.plist"; sourceTree = "<group>"; };
 		6ABD54166015DC0DFEDDEA1E8A74A5F5 /* JVCAShapeLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
 		6D2F53077BA3D05D723F8515EA6E015F /* JVCAGradientLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
@@ -833,7 +831,6 @@
 				7CDD2951D5A0F957475316E65C1A1767 /* Mode.swift */,
 				8FB380E65E5C817C6D7B608CC9D570C3 /* Pod */,
 				A70B642F1698CF7B46AF511A80A991CB /* Support Files */,
-				69C4F78921FF9FBE00494DCC /* SingleParameterInitializable.swift */,
 			);
 			name = JVMiddleTextView;
 			path = ../..;
@@ -1830,7 +1827,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2635393E508AA4CE60322388DAD8F9 /* JVMiddleTextView-dummy.m in Sources */,
-				69C4F78A21FF9FBE00494DCC /* SingleParameterInitializable.swift in Sources */,
 				B8744E7100FB0AC0C6F624FB7595F6D7 /* MiddleTextView.swift in Sources */,
 				7BA8BB14C72EBF9270F98A27AA2337BC /* Mode.swift in Sources */,
 			);
