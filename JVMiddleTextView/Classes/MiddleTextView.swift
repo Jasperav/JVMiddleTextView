@@ -57,7 +57,7 @@ open class MiddleTextView: UIView {
     private func addLoadingIndicator() {
         loadingIndicator.addAsSubview(to: self)
         
-        loadingIndicator.spacing(from: .bottom, to: .top, view: self, constant: -MiddleTextView.spacingFromMiddle)
+        loadingIndicator.spacing(from: .bottom, to: .top, view: label, constant: MiddleTextView.spacingFromMiddle)
         loadingIndicator.setSameCenterX(view: self)
     }
 
