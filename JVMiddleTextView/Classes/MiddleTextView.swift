@@ -10,6 +10,10 @@ open class MiddleTextView: UIView {
     private static let constraintEdgesWidth: CGFloat = 5
     private static let spacingFromMiddle: CGFloat = 5
     
+    public var isQueryable: Bool {
+        return queryingText != nil
+    }
+    
     private let notQueryingText: String
     private let queryingText: String?
     private let label: JVLabel
