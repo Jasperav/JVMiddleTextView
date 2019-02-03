@@ -55,11 +55,10 @@ open class MiddleTextView: UIView {
     }
     
     private func addLoadingIndicator() {
-        addSubview(loadingIndicator)
+        loadingIndicator.addAsSubview(to: self)
         
-        loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
-        
-        loadingIndicator.bottomAnchor.constraint(equalTo: centerYAnchor, constant: -MiddleTextView.spacingFromMiddle).isActive = true
+        loadingIndicator.spacing(from: .bottom, to: .top, view: self, constant: -MiddleTextView.spacingFromMiddle)
+        loadingIndicator.setSameCenterX(view: self)
     }
 
 }
