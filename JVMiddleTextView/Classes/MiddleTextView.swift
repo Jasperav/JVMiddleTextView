@@ -30,10 +30,7 @@ open class MiddleTextView: UIView {
         super.init(frame: CGRect.zero)
         
         addLabel()
-        
-        if queryingText != nil {
-            addLoadingIndicator()
-        }
+        addLoadingIndicator()
         
         change(mode: startMode?.startMode ?? .notQuerying)
     }
