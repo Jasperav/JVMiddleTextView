@@ -1,6 +1,6 @@
 {
   "name": "JVMiddleTextView",
-  "version": "0.1.8",
+  "version": "0.2.2",
   "summary": "A short description of JVMiddleTextView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jasperav/JVMiddleTextView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Jasperav/JVMiddleTextView.git",
-    "tag": "0.1.8"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "11.0"

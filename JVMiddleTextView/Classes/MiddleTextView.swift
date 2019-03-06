@@ -53,6 +53,14 @@ open class MiddleTextView: UIView {
         }
     }
     
+    public func showLabel() {
+        label.isHidden = false
+    }
+    
+    public func hideLabel() {
+        label.isHidden = true
+    }
+    
     private func addLabel() {
         let edges = ConstraintEdges(width: MiddleTextView.constraintEdgesWidth, setHeightToNil: true)
         
