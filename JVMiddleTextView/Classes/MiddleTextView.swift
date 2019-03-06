@@ -48,17 +48,9 @@ open class MiddleTextView: UIView {
             label.text = notQueryingText
             loadingIndicator.stopAnimating()
         case .querying:
-            label.text = queryingText!
+            label.text = queryingText
             loadingIndicator.startAnimating()
         }
-    }
-    
-    public func showLabel() {
-        label.isHidden = false
-    }
-    
-    public func hideLabel() {
-        label.isHidden = true
     }
     
     private func addLabel() {
