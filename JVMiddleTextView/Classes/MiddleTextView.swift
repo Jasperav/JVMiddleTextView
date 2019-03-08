@@ -10,8 +10,6 @@ open class MiddleTextView: UIView {
     private static let constraintEdgesWidth: CGFloat = 5
     private static let spacingFromMiddle: CGFloat = 5
     
-    public let startMode: StartMode?
-    
     public var isQueryable: Bool {
         return queryingText != nil
     }
@@ -21,18 +19,17 @@ open class MiddleTextView: UIView {
     private let label: JVLabel
     private let loadingIndicator = UIActivityIndicatorView(style: .gray)
     
-    public init(notQueryingText: String, startMode: StartMode? = nil) {
+    public init(notQueryingText: String, queryingText: String? = nil) {
         self.notQueryingText = notQueryingText
-        self.queryingText = startMode?.queryingText
+        self.queryingText = queryingText
         label = JVLabel(contentType: MiddleTextView.contentType)
-        self.startMode = startMode
         
         super.init(frame: CGRect.zero)
         
         addLabel()
         addLoadingIndicator()
         
-        change(mode: startMode?.startMode ?? .notQuerying)
+        change(mode: queryingText == nil ? .notQuerying : .querying)
     }
     
     public required init?(coder aDecoder: NSCoder) {

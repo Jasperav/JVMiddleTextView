@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = N4EV3W64CV;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -353,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19E2BC6E18DCBD10BB4CF960 /* Pods-JVMiddleTextView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = N4EV3W64CV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -366,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVMiddleTextView_Example.app/JVMiddleTextView_Example";
 			};
 			name = Debug;
@@ -375,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E48C3681F0A3933AF2E12FE4 /* Pods-JVMiddleTextView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = N4EV3W64CV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVMiddleTextView_Example.app/JVMiddleTextView_Example";
 			};
 			name = Release;
