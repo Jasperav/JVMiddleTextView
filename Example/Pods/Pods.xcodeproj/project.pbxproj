@@ -360,7 +360,7 @@
 		190612B696855FE9B7C6B983D4DE9F66 /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
 		1925FCAF35457DD38C0AC24F7348933C /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
 		1D2B960B3A8448FA5F9FD97F2D6D9D3F /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVView/Classes/StringExtensions.swift; sourceTree = "<group>"; };
-		1EEEE81565E17018422CA2C51992D049 /* JVMiddleTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JVMiddleTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EEEE81565E17018422CA2C51992D049 /* JVMiddleTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVMiddleTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1FADBE7643EB1166856370283BD4CD11 /* JVCAShapeLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAShapeLayerExtensions.modulemap; sourceTree = "<group>"; };
 		2086A79D58C191BC69359F1999A2DC71 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
 		20BD1563F7E910821D28DB0D5F2A3501 /* JVFontUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFontUtils.xcconfig; sourceTree = "<group>"; };
@@ -371,20 +371,20 @@
 		27E721A1A20BDD2B3E73868F9797ADD5 /* MiddleTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MiddleTextView.swift; path = JVMiddleTextView/Classes/MiddleTextView.swift; sourceTree = "<group>"; };
 		29793F11E666EE1342F3646F25F83027 /* JVCAGradientLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
 		2A556F90049C42A021D5E80FCA079CBB /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
-		2B253B2C04F8EB2EF1E6729A37773F5F /* JVMiddleTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVMiddleTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B253B2C04F8EB2EF1E6729A37773F5F /* JVMiddleTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVMiddleTextView.framework; path = JVMiddleTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C523DD0287C59C380C6AE3FF9864C5E /* JVCurrentDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCurrentDevice-umbrella.h"; sourceTree = "<group>"; };
-		2F7218057E926EDB38841C2FE61355C2 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7218057E926EDB38841C2FE61355C2 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVShapeHalfMoon.framework; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BB3716A6C57A72D348CF0EEBD5AD4C /* ContentTypeStarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButton.swift; path = JVView/Classes/ContentTypeStarButton.swift; sourceTree = "<group>"; };
 		32D9B7CB8EA0E64DCFD4D11A2CBE94E6 /* JVFontUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVFontUtils-Info.plist"; sourceTree = "<group>"; };
 		36827D0780E1BC03A7F63CAC95E9D84C /* JVButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVButton.swift; path = JVView/Classes/JVButton.swift; sourceTree = "<group>"; };
 		36A035B825E4086A1226AB3680222546 /* JVCAGradientLayerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCAGradientLayerExtensions-dummy.m"; sourceTree = "<group>"; };
-		377D36E1E595766BA36F83C74AA34C27 /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		377D36E1E595766BA36F83C74AA34C27 /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVGradientLayer.framework; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		398EB2E401F5D1FF2186D02E1FF04208 /* ContentTypeJVGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeJVGradientLayer.swift; path = JVGradientLayer/Classes/ContentTypeJVGradientLayer.swift; sourceTree = "<group>"; };
 		3D6F8A91648C97647D589126F7ACECE2 /* JVLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabel.swift; path = JVView/Classes/JVLabel.swift; sourceTree = "<group>"; };
-		3F323A69238D37F43DE5A6903D19401A /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F323A69238D37F43DE5A6903D19401A /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAShapeLayerExtensions.framework; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F743D9F2D2C47ECC3ED634F44E0F75B /* JVButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVButtonText.swift; path = JVView/Classes/JVButtonText.swift; sourceTree = "<group>"; };
 		40F14222397CACB50C027AC2FA8A8B61 /* JVCAGradientLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAGradientLayerExtensions.modulemap; sourceTree = "<group>"; };
-		412CE404E068874FE1EF398529F34751 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412CE404E068874FE1EF398529F34751 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFontUtils.framework; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		426AAC0EEEC42EA4C9E5D8EB28E1FDEB /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
 		43227D34CDF2077F2CF7D36394432461 /* JVCurrentDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCurrentDevice-dummy.m"; sourceTree = "<group>"; };
 		439D02E8EBBE488214C4EF60DBEC973B /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
@@ -398,7 +398,7 @@
 		542B0B6D8DDFCCD10A13A0C2DDBDDFE4 /* JVRestartable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRestartable-dummy.m"; sourceTree = "<group>"; };
 		594C075172A40CF942945E56E6E684DE /* ContentTypeStarLabelTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelTextCountingLabel.swift; sourceTree = "<group>"; };
 		5CFB094741027848C4414367EF9629D0 /* JVFontUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFontUtils-prefix.pch"; sourceTree = "<group>"; };
-		5FCF9EBA357D8EA107A2E7B6742A69DE /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCF9EBA357D8EA107A2E7B6742A69DE /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601573B68C0649FDB93C354BA455EF64 /* JVGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVGradientLayer-dummy.m"; sourceTree = "<group>"; };
 		615AE4B46A109554D6A27480C8FFBBDD /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
 		647756406D506035ACEDED21821E42A8 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -409,20 +409,20 @@
 		68198E13C379CF55645EA43FFEE5BF4F /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689337952E7D185C95C0E154E0CDB664 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
 		68FD958115AC1708D98124F4BF05C3F3 /* ContentTypeTextFontEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextFontEdges.swift; path = JVView/Classes/ContentTypeTextFontEdges.swift; sourceTree = "<group>"; };
-		6A233BC1239D9FEC1B91FCAAC0BEF331 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A233BC1239D9FEC1B91FCAAC0BEF331 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6E89EA4F2CF1BC8ADAE64A73F0657C /* JVGradientLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVGradientLayer-Info.plist"; sourceTree = "<group>"; };
 		6ACAA46663F1DD087CA8B4E52B604305 /* JVShapeHalfMoon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVShapeHalfMoon-Info.plist"; sourceTree = "<group>"; };
 		6D3D17B4838F75925DC1ACC2BA5D9705 /* JVView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVView-dummy.m"; sourceTree = "<group>"; };
 		6E1F28406CDCFF0914463604F3303C0B /* Pods-JVMiddleTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMiddleTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E3E60C5F257E54AA4713D9EA5D67D28 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
-		6E51D3F2CD19AC53446AB7305551168C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E51D3F2CD19AC53446AB7305551168C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		71F5DFA779E1E827FEA9B961EA5B9466 /* JVCAShapeLayerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-prefix.pch"; sourceTree = "<group>"; };
 		75E5FA6FCDFC5BCB7FA2E15745FA2089 /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
 		76455BFA8AF1CFBD0F62523F86FE1EA4 /* JVMiddleTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVMiddleTextView-Info.plist"; sourceTree = "<group>"; };
 		766870052121417879D6D30FFF80E210 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
 		77278155CAE3BFE71E13E47115E1170E /* DeviceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceType.swift; path = JVCurrentDevice/Classes/DeviceType.swift; sourceTree = "<group>"; };
 		784D084AB30506122CF0B5D784FB01E2 /* JVView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVView-Info.plist"; sourceTree = "<group>"; };
-		79248B90976350D024BDEC1C3108972D /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79248B90976350D024BDEC1C3108972D /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A086B4AE46A50A8067ED5040005A29D /* Pods-JVMiddleTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVMiddleTextView_Tests.modulemap"; sourceTree = "<group>"; };
 		7C39F27654F3CD751E307572564C4B1F /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
 		7E8C6B6062E769787629A38C1181FAC6 /* JVFontUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFontUtils-dummy.m"; sourceTree = "<group>"; };
@@ -430,7 +430,7 @@
 		8242D0CCD6041B2E6324BCED3461D535 /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
 		8376CF8AFD9086D91798DE545B373BC8 /* ContentTypeAttributedText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeAttributedText.swift; path = JVView/Classes/ContentTypeAttributedText.swift; sourceTree = "<group>"; };
 		85C944A56FE74F9ECF1AED09E13D1DCF /* ContentTypeStarLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabel.swift; path = JVView/Classes/ContentTypeStarLabel.swift; sourceTree = "<group>"; };
-		86DD44A33B3AE33ADD40FB037300A9C2 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DD44A33B3AE33ADD40FB037300A9C2 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVView.framework; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2729DB207E1985AFDEC61118B8323 /* JVFontUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFontUtils.modulemap; sourceTree = "<group>"; };
 		875B9651E3FF22F99BF5CDF7C0FEA119 /* RestartableManageable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableManageable.swift; path = JVRestartable/Classes/RestartableManageable.swift; sourceTree = "<group>"; };
 		8A5326FE9C12B8686AD6D47F25E872ED /* CAShapeLayerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAShapeLayerExtensions.swift; path = JVCAShapeLayerExtensions/Classes/CAShapeLayerExtensions.swift; sourceTree = "<group>"; };
@@ -449,16 +449,16 @@
 		9A5B7D7C7AC3E54D30E571BA1F3A0389 /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
 		9A774D363174C586F54526D671E4309B /* RestartableState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableState.swift; path = JVRestartable/Classes/RestartableState.swift; sourceTree = "<group>"; };
 		9C18B0DC02CBCFB59F773F9215A0A001 /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0784FA24EA13B2CAFD90E0C9FBC2D64 /* JVCAGradientLayerExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCAGradientLayerExtensions.xcconfig; sourceTree = "<group>"; };
 		A3BD9BB1F8F4E4CB4CA2E8579850EA47 /* ContentTypeStarLabelAttributedTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelAttributedTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelAttributedTextCountingLabel.swift; sourceTree = "<group>"; };
 		A5FFEEF1C9DDD4FA21E8F4D9CE8B0319 /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A611B3678BD8CD4D34A36A7C151EF590 /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A611B3678BD8CD4D34A36A7C151EF590 /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVRestartable.framework; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A741CBE6CD392964B0169AB1F9BA53 /* JVCurrentDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCurrentDevice.modulemap; sourceTree = "<group>"; };
 		AAE5936EC5C114429B04B7180429AA40 /* JVView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVView.modulemap; sourceTree = "<group>"; };
 		AE0284664A50044C5F81EF23B1D10565 /* RestartableStateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableStateable.swift; path = JVRestartable/Classes/RestartableStateable.swift; sourceTree = "<group>"; };
 		AFA35679CAAC215A1F276F252A71A6DB /* ContentTypeStarButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonText.swift; path = JVView/Classes/ContentTypeStarButtonText.swift; sourceTree = "<group>"; };
-		B41554B01D7A8B4B5C908BCA27DB50BD /* Pods_JVMiddleTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVMiddleTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41554B01D7A8B4B5C908BCA27DB50BD /* Pods_JVMiddleTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVMiddleTextView_Tests.framework; path = "Pods-JVMiddleTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4BC544A5C0DB7E49F3D385F050F4CF1 /* Pods-JVMiddleTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMiddleTextView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B5A64831F326332EBE6313755034FF1A /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		B7D29509945B56739FEA22D9D36F9D1A /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
@@ -487,9 +487,9 @@
 		D5FC7C6A3CB32D6C47F9C20A0BDED536 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
 		D609E3645D51123E52CA7389694A3193 /* JVCAShapeLayerExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCAShapeLayerExtensions.xcconfig; sourceTree = "<group>"; };
 		D869E6B16FC1126CE558D659DAEB18B9 /* Pods-JVMiddleTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMiddleTextView_Tests-Info.plist"; sourceTree = "<group>"; };
-		D9D5BAD1940F83329B56104C15DD4D77 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D5BAD1940F83329B56104C15DD4D77 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D1EE02D2558BC43EC81CFDEA996E8 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
-		DD94F50C8ED6B5539DE1F80E739F4BAF /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD94F50C8ED6B5539DE1F80E739F4BAF /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAGradientLayerExtensions.framework; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD98B52B6D7E7BE339E6F617D49CD595 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVRestartable/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
 		DE228F73B4EF3739C7503E849F617C0E /* JVShapeHalfMoon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVShapeHalfMoon-dummy.m"; sourceTree = "<group>"; };
 		E0826251978E7E8DAD386139D309D328 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
@@ -505,11 +505,11 @@
 		EEE1988AEC25BF7547A6917B1A9EAF8D /* JVMiddleTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVMiddleTextView.xcconfig; sourceTree = "<group>"; };
 		EF75B0011683F7AA10188F44609DCCC8 /* JVTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextView.swift; path = JVView/Classes/JVTextView.swift; sourceTree = "<group>"; };
 		F2E0924836E036D68A582648000B0408 /* JVMiddleTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVMiddleTextView-umbrella.h"; sourceTree = "<group>"; };
-		F32C8DF989DFD39CBDF2A726F37BD9D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F32C8DF989DFD39CBDF2A726F37BD9D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F3E16362AA932A298164A92E2AE378D2 /* JVShapeHalfMoon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVShapeHalfMoon-prefix.pch"; sourceTree = "<group>"; };
 		F446849FB7D52692B39B2C51F32BBA98 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		F47B624F70CC9116142991A44917EA5E /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
-		F4BDE30F88A25AEE03A2912C623C5655 /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BDE30F88A25AEE03A2912C623C5655 /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCurrentDevice.framework; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F036C9756F3498147D69283E66E5F9 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
 		F90E4BBC0294D63CF79EBB484D057B5F /* ContentTypeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextView.swift; path = JVView/Classes/ContentTypeTextView.swift; sourceTree = "<group>"; };
 		F956688F0D85B2BFD9386C71A95604BB /* JVShapeHalfMoon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVShapeHalfMoon.xcconfig; sourceTree = "<group>"; };
@@ -683,6 +683,7 @@
 				D3D23B6163044EEE5E4AD268E4F8C14C /* UIButtonSystemExtension.swift */,
 				3F923F17085E7F2F0262B58FF0050BEE /* Support Files */,
 			);
+			name = JVView;
 			path = JVView;
 			sourceTree = "<group>";
 		};
@@ -727,6 +728,7 @@
 				689337952E7D185C95C0E154E0CDB664 /* UIViewFillExtension.swift */,
 				BAC0B80F735A9FF725FB7A6616BF96FD /* Support Files */,
 			);
+			name = JVConstraintEdges;
 			path = JVConstraintEdges;
 			sourceTree = "<group>";
 		};
@@ -804,6 +806,7 @@
 				AE0284664A50044C5F81EF23B1D10565 /* RestartableStateable.swift */,
 				3CAD6CC82169AE4978E81663A26FE7BE /* Support Files */,
 			);
+			name = JVRestartable;
 			path = JVRestartable;
 			sourceTree = "<group>";
 		};
@@ -814,6 +817,7 @@
 				77278155CAE3BFE71E13E47115E1170E /* DeviceType.swift */,
 				C21A4871CE23F1FF45479706DC5A651B /* Support Files */,
 			);
+			name = JVCurrentDevice;
 			path = JVCurrentDevice;
 			sourceTree = "<group>";
 		};
@@ -851,6 +855,7 @@
 				9C18B0DC02CBCFB59F773F9215A0A001 /* Sizeable.swift */,
 				B19EFD57E5E8FD62AA92A5EACEFA134F /* Support Files */,
 			);
+			name = JVSizeable;
 			path = JVSizeable;
 			sourceTree = "<group>";
 		};
@@ -907,6 +912,7 @@
 				991B22F7B0A128125E1E9B92A5462E86 /* Copyable.swift */,
 				E69E091817722170847339F511354448 /* Support Files */,
 			);
+			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -916,6 +922,7 @@
 				8A5326FE9C12B8686AD6D47F25E872ED /* CAShapeLayerExtensions.swift */,
 				137259A1F967C94062E1F455131ADF50 /* Support Files */,
 			);
+			name = JVCAShapeLayerExtensions;
 			path = JVCAShapeLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -982,6 +989,7 @@
 				75E5FA6FCDFC5BCB7FA2E15745FA2089 /* Device.generated.swift */,
 				6B6ED16BF843B67DF90C62BE84DE26A3 /* Support Files */,
 			);
+			name = DeviceKit;
 			path = DeviceKit;
 			sourceTree = "<group>";
 		};
@@ -1078,6 +1086,7 @@
 				4442EE7F3DC0B814FD5DCB6AA3B2A400 /* StringExtensions.swift */,
 				237EEA63A01BFC18605880628E7127EB /* Support Files */,
 			);
+			name = JVGradientLayer;
 			path = JVGradientLayer;
 			sourceTree = "<group>";
 		};
@@ -1088,6 +1097,7 @@
 				041656B52BE7D54921B316A7B5961012 /* ShapeHalfMoon.swift */,
 				66D5F189EF296754B9A730815917DE34 /* Support Files */,
 			);
+			name = JVShapeHalfMoon;
 			path = JVShapeHalfMoon;
 			sourceTree = "<group>";
 		};
@@ -1111,6 +1121,7 @@
 				80654F153265173A913D185BC874578D /* JVFontUtils.swift */,
 				38A921F6BDC875B33A32E357D9176032 /* Support Files */,
 			);
+			name = JVFontUtils;
 			path = JVFontUtils;
 			sourceTree = "<group>";
 		};
@@ -1120,6 +1131,7 @@
 				64ADEF8518E6810CB769C79176BCB608 /* JVCAGradientLayerExtensions.swift */,
 				C6CD206A02671222CB94487009369751 /* Support Files */,
 			);
+			name = JVCAGradientLayerExtensions;
 			path = JVCAGradientLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -2021,40 +2033,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E0A36750138EBB39EBC638FF67CBEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20BD1563F7E910821D28DB0D5F2A3501 /* JVFontUtils.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVFontUtils/JVFontUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVFontUtils/JVFontUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVFontUtils/JVFontUtils.modulemap";
-				PRODUCT_MODULE_NAME = JVFontUtils;
-				PRODUCT_NAME = JVFontUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		04EB13A9DCA4E4682AC3EFDAB37B31DD /* Release */ = {
+		16FC72E3A7D7484AA56FB1FA8612D3E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F47B624F70CC9116142991A44917EA5E /* JVSizeable.xcconfig */;
 			buildSettings = {
@@ -2088,9 +2067,9 @@
 			};
 			name = Release;
 		};
-		28CA2DD6B81E2DD5EA3491AB6FD690CD /* Release */ = {
+		1701E8875F30743B5589C625FF6E9ECA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D609E3645D51123E52CA7389694A3193 /* JVCAShapeLayerExtensions.xcconfig */;
+			baseConfigurationReference = C2744011A8A45E7D34AB1BD7DC6909A6 /* JVCurrentDevice.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2103,14 +2082,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVCurrentDevice/JVCurrentDevice-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVCurrentDevice/JVCurrentDevice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions.modulemap";
-				PRODUCT_MODULE_NAME = JVCAShapeLayerExtensions;
-				PRODUCT_NAME = JVCAShapeLayerExtensions;
+				MODULEMAP_FILE = "Target Support Files/JVCurrentDevice/JVCurrentDevice.modulemap";
+				PRODUCT_MODULE_NAME = JVCurrentDevice;
+				PRODUCT_NAME = JVCurrentDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2484A5CEA792C939D974CE3D1CEAE9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F956688F0D85B2BFD9386C71A95604BB /* JVShapeHalfMoon.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon.modulemap";
+				PRODUCT_MODULE_NAME = JVShapeHalfMoon;
+				PRODUCT_NAME = JVShapeHalfMoon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2122,9 +2134,9 @@
 			};
 			name = Release;
 		};
-		4BB6E106C187EEE71852B1742163ADC6 /* Release */ = {
+		27BFB91AFB45A6C4FB6EFB4C802579C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20BD1563F7E910821D28DB0D5F2A3501 /* JVFontUtils.xcconfig */;
+			baseConfigurationReference = FE266A003B34144C9576FE4C28BE545C /* JVView.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2137,24 +2149,89 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVFontUtils/JVFontUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVFontUtils/JVFontUtils-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVView/JVView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVView/JVView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVFontUtils/JVFontUtils.modulemap";
-				PRODUCT_MODULE_NAME = JVFontUtils;
-				PRODUCT_NAME = JVFontUtils;
+				MODULEMAP_FILE = "Target Support Files/JVView/JVView.modulemap";
+				PRODUCT_MODULE_NAME = JVView;
+				PRODUCT_NAME = JVView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		31C8E34775E83F771DD8A8F8A7830AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE1988AEC25BF7547A6917B1A9EAF8D /* JVMiddleTextView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVMiddleTextView/JVMiddleTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVMiddleTextView/JVMiddleTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVMiddleTextView/JVMiddleTextView.modulemap";
+				PRODUCT_MODULE_NAME = JVMiddleTextView;
+				PRODUCT_NAME = JVMiddleTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A0292C40F7599148463E0AA6A088E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0784FA24EA13B2CAFD90E0C9FBC2D64 /* JVCAGradientLayerExtensions.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVCAGradientLayerExtensions;
+				PRODUCT_NAME = JVCAGradientLayerExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2209,47 +2286,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		57FDC64D7FD863CA938C8DB7C533BE34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DAB48241FBE211F2AAC3BC29857BB6 /* JVContentType.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
-				PRODUCT_MODULE_NAME = JVContentType;
-				PRODUCT_NAME = JVContentType;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58FB100215723513E5C7A8FCCFCAE176 /* Debug */ = {
+		512E53C3DAE3F48B4204CCDE5F54931C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93F6E580EFE34E0D3DCE9B525A56604B /* JVRestartable.xcconfig */;
 			buildSettings = {
@@ -2282,9 +2326,9 @@
 			};
 			name = Debug;
 		};
-		6A9708658823EF12D1CFB6F65A5581AA /* Debug */ = {
+		694B2617CE76E9E62A23901506238BBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB3BDD92234D9F6D7A7CBBEAA81C5146 /* JVConstraintEdges.xcconfig */;
+			baseConfigurationReference = D609E3645D51123E52CA7389694A3193 /* JVCAShapeLayerExtensions.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2297,23 +2341,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
-				PRODUCT_MODULE_NAME = JVConstraintEdges;
-				PRODUCT_NAME = JVConstraintEdges;
+				MODULEMAP_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVCAShapeLayerExtensions;
+				PRODUCT_NAME = JVCAShapeLayerExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2379,108 +2424,7 @@
 			};
 			name = Debug;
 		};
-		7EF585441B516F411FA4D5206B71A727 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9228AAED0C27186A8DB67B828C29709C /* JVGradientLayer.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVGradientLayer/JVGradientLayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVGradientLayer/JVGradientLayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVGradientLayer/JVGradientLayer.modulemap";
-				PRODUCT_MODULE_NAME = JVGradientLayer;
-				PRODUCT_NAME = JVGradientLayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9150F02FC916F18BC957C4DE20021CBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F6E580EFE34E0D3DCE9B525A56604B /* JVRestartable.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
-				PRODUCT_MODULE_NAME = JVRestartable;
-				PRODUCT_NAME = JVRestartable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9480D94327DA519192CAA26C4074E72C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F47B624F70CC9116142991A44917EA5E /* JVSizeable.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
-				PRODUCT_MODULE_NAME = JVSizeable;
-				PRODUCT_NAME = JVSizeable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A77E215BD2CC02A9AE310AD28CE1F8EB /* Release */ = {
+		6E84130DF7EED8773BAAAF5E441F02BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE266A003B34144C9576FE4C28BE545C /* JVView.xcconfig */;
 			buildSettings = {
@@ -2514,7 +2458,7 @@
 			};
 			name = Release;
 		};
-		AB0F2325AFBCB66D36CDAA5420EF43D6 /* Debug */ = {
+		70F63B20245B9F83E4C8DCE278F53B43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9228AAED0C27186A8DB67B828C29709C /* JVGradientLayer.xcconfig */;
 			buildSettings = {
@@ -2542,14 +2486,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B536D393E7F3D19B6C61A4710DF44DCD /* Debug */ = {
+		7258FAA38EB995DBBEBE8DB7250A35D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DAB48241FBE211F2AAC3BC29857BB6 /* JVContentType.xcconfig */;
+			baseConfigurationReference = 20BD1563F7E910821D28DB0D5F2A3501 /* JVFontUtils.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2562,14 +2507,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFontUtils/JVFontUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFontUtils/JVFontUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
-				PRODUCT_MODULE_NAME = JVContentType;
-				PRODUCT_NAME = JVContentType;
+				MODULEMAP_FILE = "Target Support Files/JVFontUtils/JVFontUtils.modulemap";
+				PRODUCT_MODULE_NAME = JVFontUtils;
+				PRODUCT_NAME = JVFontUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2580,7 +2525,7 @@
 			};
 			name = Debug;
 		};
-		B6DCC70D8910E25326F158D7D2CFE5E3 /* Debug */ = {
+		7508DAAB5455247FC72EDF4439676267 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0784FA24EA13B2CAFD90E0C9FBC2D64 /* JVCAGradientLayerExtensions.xcconfig */;
 			buildSettings = {
@@ -2608,14 +2553,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		BCD172261CF312ACCE14E5417F36D0FB /* Debug */ = {
+		85D8FEED4C1707EBB37F16307DC18521 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2744011A8A45E7D34AB1BD7DC6909A6 /* JVCurrentDevice.xcconfig */;
+			baseConfigurationReference = 93F6E580EFE34E0D3DCE9B525A56604B /* JVRestartable.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2628,14 +2574,114 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVCurrentDevice/JVCurrentDevice-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVCurrentDevice/JVCurrentDevice-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRestartable/JVRestartable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRestartable/JVRestartable-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVCurrentDevice/JVCurrentDevice.modulemap";
-				PRODUCT_MODULE_NAME = JVCurrentDevice;
-				PRODUCT_NAME = JVCurrentDevice;
+				MODULEMAP_FILE = "Target Support Files/JVRestartable/JVRestartable.modulemap";
+				PRODUCT_MODULE_NAME = JVRestartable;
+				PRODUCT_NAME = JVRestartable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9D151A503A4459B25BA7D0A239C40A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45BDDE53A2F9DD75EE2BC126DE09D55 /* DeviceKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B342752F66DF9A4FB9BAE10A312AE503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3BDD92234D9F6D7A7CBBEAA81C5146 /* JVConstraintEdges.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF8A49699515616D42F3E8C2BFFAC205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D609E3645D51123E52CA7389694A3193 /* JVCAShapeLayerExtensions.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVCAShapeLayerExtensions;
+				PRODUCT_NAME = JVCAShapeLayerExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2675,7 +2721,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2683,11 +2728,12 @@
 			};
 			name = Release;
 		};
-		C8F44D8A2393156A0CF6CA642E7E658D /* Debug */ = {
+		C631AD0F71112E4EE64E975752F7131D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D45BDDE53A2F9DD75EE2BC126DE09D55 /* DeviceKit.xcconfig */;
+			baseConfigurationReference = 9228AAED0C27186A8DB67B828C29709C /* JVGradientLayer.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2697,14 +2743,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVGradientLayer/JVGradientLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVGradientLayer/JVGradientLayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
-				PRODUCT_MODULE_NAME = DeviceKit;
-				PRODUCT_NAME = DeviceKit;
+				MODULEMAP_FILE = "Target Support Files/JVGradientLayer/JVGradientLayer.modulemap";
+				PRODUCT_MODULE_NAME = JVGradientLayer;
+				PRODUCT_NAME = JVGradientLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2715,7 +2761,74 @@
 			};
 			name = Debug;
 		};
-		CBA7070B91A716E2D313956D18A3280B /* Release */ = {
+		CA1397A970D26DB2B36CA70D408CA000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F956688F0D85B2BFD9386C71A95604BB /* JVShapeHalfMoon.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon.modulemap";
+				PRODUCT_MODULE_NAME = JVShapeHalfMoon;
+				PRODUCT_NAME = JVShapeHalfMoon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0CFA9ABD4FE553C52C09D12279F842F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BD1563F7E910821D28DB0D5F2A3501 /* JVFontUtils.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFontUtils/JVFontUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFontUtils/JVFontUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFontUtils/JVFontUtils.modulemap";
+				PRODUCT_MODULE_NAME = JVFontUtils;
+				PRODUCT_NAME = JVFontUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D31A7685928BC27C2887807BDF503812 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB3BDD92234D9F6D7A7CBBEAA81C5146 /* JVConstraintEdges.xcconfig */;
 			buildSettings = {
@@ -2743,13 +2856,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CCDB2A23F046C79EE683FCC98EE2A156 /* Release */ = {
+		E4EA07DCC28DF215FBF96177C738D9E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2744011A8A45E7D34AB1BD7DC6909A6 /* JVCurrentDevice.xcconfig */;
 			buildSettings = {
@@ -2783,41 +2895,7 @@
 			};
 			name = Release;
 		};
-		CDE08B4F4C4A310FAB7ABCCD7D9CECCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0784FA24EA13B2CAFD90E0C9FBC2D64 /* JVCAGradientLayerExtensions.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVCAGradientLayerExtensions/JVCAGradientLayerExtensions.modulemap";
-				PRODUCT_MODULE_NAME = JVCAGradientLayerExtensions;
-				PRODUCT_NAME = JVCAGradientLayerExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D872721DCEC7156465EAB922B54EF812 /* Release */ = {
+		E616B653545483E4F8146CDA1D239FC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EEE1988AEC25BF7547A6917B1A9EAF8D /* JVMiddleTextView.xcconfig */;
 			buildSettings = {
@@ -2851,9 +2929,9 @@
 			};
 			name = Release;
 		};
-		DE2AFA22A60490345249B8F4F994D94C /* Release */ = {
+		E8DAA9DED0B3E6A76833C06BFEEACF36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F956688F0D85B2BFD9386C71A95604BB /* JVShapeHalfMoon.xcconfig */;
+			baseConfigurationReference = F47B624F70CC9116142991A44917EA5E /* JVSizeable.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2866,26 +2944,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVSizeable/JVSizeable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVSizeable/JVSizeable-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon.modulemap";
-				PRODUCT_MODULE_NAME = JVShapeHalfMoon;
-				PRODUCT_NAME = JVShapeHalfMoon;
+				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
+				PRODUCT_MODULE_NAME = JVSizeable;
+				PRODUCT_NAME = JVSizeable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E19ED1082A57DA1482C68BD6D80D9134 /* Release */ = {
+		EE40D6ED0C15880BE6E992F7CFB5B1AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D45BDDE53A2F9DD75EE2BC126DE09D55 /* DeviceKit.xcconfig */;
 			buildSettings = {
@@ -2918,9 +2995,9 @@
 			};
 			name = Release;
 		};
-		E8AEBB1607113FE08A0F2E27A36B0FB6 /* Debug */ = {
+		F142C36EE77D3D5AD1571BD63EC3FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEE1988AEC25BF7547A6917B1A9EAF8D /* JVMiddleTextView.xcconfig */;
+			baseConfigurationReference = 24DAB48241FBE211F2AAC3BC29857BB6 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2933,14 +3010,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVMiddleTextView/JVMiddleTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVMiddleTextView/JVMiddleTextView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVMiddleTextView/JVMiddleTextView.modulemap";
-				PRODUCT_MODULE_NAME = JVMiddleTextView;
-				PRODUCT_NAME = JVMiddleTextView;
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2951,9 +3028,9 @@
 			};
 			name = Debug;
 		};
-		F3BA4E1FE16CB16FC0BB360E338CEBCE /* Debug */ = {
+		F19F119A60788346DC7DA42F9BEBB6D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D609E3645D51123E52CA7389694A3193 /* JVCAShapeLayerExtensions.xcconfig */;
+			baseConfigurationReference = 24DAB48241FBE211F2AAC3BC29857BB6 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2966,56 +3043,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVCAShapeLayerExtensions/JVCAShapeLayerExtensions.modulemap";
-				PRODUCT_MODULE_NAME = JVCAShapeLayerExtensions;
-				PRODUCT_NAME = JVCAShapeLayerExtensions;
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		F9739F80ABCD678A6115649D7093F12B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE266A003B34144C9576FE4C28BE545C /* JVView.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVView/JVView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVView/JVView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVView/JVView.modulemap";
-				PRODUCT_MODULE_NAME = JVView;
-				PRODUCT_NAME = JVView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		F988F41D8D98B1495C45DE687DC4DFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3046,40 +3091,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FD2C7BAB8B606679B4737A4D04159FA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F956688F0D85B2BFD9386C71A95604BB /* JVShapeHalfMoon.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon.modulemap";
-				PRODUCT_MODULE_NAME = JVShapeHalfMoon;
-				PRODUCT_NAME = JVShapeHalfMoon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3092,8 +3103,8 @@
 		044C20040C7E6AFEE68F0FCB9BDDB090 /* Build configuration list for PBXNativeTarget "JVSizeable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9480D94327DA519192CAA26C4074E72C /* Debug */,
-				04EB13A9DCA4E4682AC3EFDAB37B31DD /* Release */,
+				E8DAA9DED0B3E6A76833C06BFEEACF36 /* Debug */,
+				16FC72E3A7D7484AA56FB1FA8612D3E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3101,8 +3112,8 @@
 		0A0309C1E1727524AF2ABD24E0D5E844 /* Build configuration list for PBXNativeTarget "JVRestartable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58FB100215723513E5C7A8FCCFCAE176 /* Debug */,
-				9150F02FC916F18BC957C4DE20021CBD /* Release */,
+				512E53C3DAE3F48B4204CCDE5F54931C /* Debug */,
+				85D8FEED4C1707EBB37F16307DC18521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3110,8 +3121,8 @@
 		0CCE3D236FABE8DCFD510621982968ED /* Build configuration list for PBXNativeTarget "JVShapeHalfMoon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD2C7BAB8B606679B4737A4D04159FA7 /* Debug */,
-				DE2AFA22A60490345249B8F4F994D94C /* Release */,
+				CA1397A970D26DB2B36CA70D408CA000 /* Debug */,
+				2484A5CEA792C939D974CE3D1CEAE9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3119,8 +3130,8 @@
 		10CA812ACA2AB821B82154AB3A3F2A55 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8F44D8A2393156A0CF6CA642E7E658D /* Debug */,
-				E19ED1082A57DA1482C68BD6D80D9134 /* Release */,
+				A9D151A503A4459B25BA7D0A239C40A3 /* Debug */,
+				EE40D6ED0C15880BE6E992F7CFB5B1AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3128,8 +3139,8 @@
 		2DC5F8DDDD21FA8D4F793174E270952E /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B536D393E7F3D19B6C61A4710DF44DCD /* Debug */,
-				57FDC64D7FD863CA938C8DB7C533BE34 /* Release */,
+				F142C36EE77D3D5AD1571BD63EC3FA20 /* Debug */,
+				F19F119A60788346DC7DA42F9BEBB6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3146,8 +3157,8 @@
 		41E9DD2EB2C9DE2ADAA442F54BE1ED11 /* Build configuration list for PBXNativeTarget "JVCAGradientLayerExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6DCC70D8910E25326F158D7D2CFE5E3 /* Debug */,
-				CDE08B4F4C4A310FAB7ABCCD7D9CECCB /* Release */,
+				4A0292C40F7599148463E0AA6A088E09 /* Debug */,
+				7508DAAB5455247FC72EDF4439676267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3164,8 +3175,8 @@
 		4AE2BF113CF83FABD92291ED30E6C73E /* Build configuration list for PBXNativeTarget "JVFontUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E0A36750138EBB39EBC638FF67CBEF /* Debug */,
-				4BB6E106C187EEE71852B1742163ADC6 /* Release */,
+				7258FAA38EB995DBBEBE8DB7250A35D0 /* Debug */,
+				D0CFA9ABD4FE553C52C09D12279F842F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3173,8 +3184,8 @@
 		627398F30A27FF2EF21C6A8C662A08BD /* Build configuration list for PBXNativeTarget "JVCurrentDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCD172261CF312ACCE14E5417F36D0FB /* Debug */,
-				CCDB2A23F046C79EE683FCC98EE2A156 /* Release */,
+				1701E8875F30743B5589C625FF6E9ECA /* Debug */,
+				E4EA07DCC28DF215FBF96177C738D9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3182,8 +3193,8 @@
 		91440318982788BE01AA7E4AF4EC7F82 /* Build configuration list for PBXNativeTarget "JVGradientLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB0F2325AFBCB66D36CDAA5420EF43D6 /* Debug */,
-				7EF585441B516F411FA4D5206B71A727 /* Release */,
+				C631AD0F71112E4EE64E975752F7131D /* Debug */,
+				70F63B20245B9F83E4C8DCE278F53B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3191,8 +3202,8 @@
 		B99456EA2B55D2C6895D36F7B9D11B48 /* Build configuration list for PBXNativeTarget "JVCAShapeLayerExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3BA4E1FE16CB16FC0BB360E338CEBCE /* Debug */,
-				28CA2DD6B81E2DD5EA3491AB6FD690CD /* Release */,
+				BF8A49699515616D42F3E8C2BFFAC205 /* Debug */,
+				694B2617CE76E9E62A23901506238BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3200,8 +3211,8 @@
 		D5ECC57CE72CB854350324AF3301B79D /* Build configuration list for PBXNativeTarget "JVView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9739F80ABCD678A6115649D7093F12B /* Debug */,
-				A77E215BD2CC02A9AE310AD28CE1F8EB /* Release */,
+				27BFB91AFB45A6C4FB6EFB4C802579C5 /* Debug */,
+				6E84130DF7EED8773BAAAF5E441F02BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3209,8 +3220,8 @@
 		E5F1ECA1432EEFECD52B175866177558 /* Build configuration list for PBXNativeTarget "JVMiddleTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8AEBB1607113FE08A0F2E27A36B0FB6 /* Debug */,
-				D872721DCEC7156465EAB922B54EF812 /* Release */,
+				31C8E34775E83F771DD8A8F8A7830AD5 /* Debug */,
+				E616B653545483E4F8146CDA1D239FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3218,8 +3229,8 @@
 		FD676A4C2416FE38E5807E46E4C99EB7 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A9708658823EF12D1CFB6F65A5581AA /* Debug */,
-				CBA7070B91A716E2D313956D18A3280B /* Release */,
+				D31A7685928BC27C2887807BDF503812 /* Debug */,
+				B342752F66DF9A4FB9BAE10A312AE503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

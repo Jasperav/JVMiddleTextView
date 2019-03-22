@@ -14,6 +14,10 @@ open class MiddleTextView: UIView {
         return queryingText != nil
     }
     
+    public var isAnimating: Bool {
+        return loadingIndicator.isAnimating
+    }
+    
     private let notQueryingText: String
     private let queryingText: String?
     private let label: JVLabel

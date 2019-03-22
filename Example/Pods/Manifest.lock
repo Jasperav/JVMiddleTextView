@@ -12,7 +12,7 @@ PODS:
   - JVGradientLayer (0.1.2):
     - JVCAGradientLayerExtensions
     - JVContentType
-  - JVMiddleTextView (0.2.2):
+  - JVMiddleTextView (0.2.6):
     - JVConstraintEdges
     - JVView
   - JVRestartable (0.1.6)
@@ -62,7 +62,7 @@ SPEC CHECKSUMS:
   JVCurrentDevice: 36aaad85ebb56d935de74e7b3bc47c852899dc39
   JVFontUtils: e390fee698f64889fafa4ccabd25084bdbf136b7
   JVGradientLayer: 34e464b6f5624370653606c94229e81dcf1282ea
-  JVMiddleTextView: 024912ff5db8adba056ea5ce431ddef7ddc52d5b
+  JVMiddleTextView: b212319348de89a87f0a5a839378abfc5c1e3384
   JVRestartable: 008c47ae1b36de3bf2cdad2299852231b5749f2a
   JVShapeHalfMoon: 31444957e7a226e800003afaee2634c8ba8129a1
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
