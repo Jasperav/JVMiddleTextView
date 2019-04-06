@@ -5,7 +5,7 @@ import JVConstraintEdges
 open class MiddleTextView: UIView {
     
     /// Content type for the label
-    public static var contentType: ContentTypeJVLabelText!
+    public static var contentType: ContentTypeJVLabel!
     
     private static let constraintEdgesWidth: CGFloat = 5
     private static let spacingFromMiddle: CGFloat = 5
@@ -50,20 +50,27 @@ open class MiddleTextView: UIView {
             loadingIndicator.startAnimating()
         }
     }
-    
+
     private func addLabel() {
         let edges = ConstraintEdges(width: MiddleTextView.constraintEdgesWidth, setHeightToNil: true)
         
-        label.fill(toSuperview: self, edges: edges)
-        label.topAnchor.constraint(equalTo: centerYAnchor, constant: MiddleTextView.spacingFromMiddle).isActive = true
+        label.layout {
+            $0.fill(toSuperview: self, edges: edges)
+            
+            $0.topAnchor.constraint(equalTo: centerYAnchor, constant: MiddleTextView.spacingFromMiddle).isActive = true
+        }
+        
         label.textAlignment = .center
     }
     
     private func addLoadingIndicator() {
-        loadingIndicator.addAsSubview(to: self)
-        
-        loadingIndicator.spacing(from: .bottom, to: .top, view: label, constant: MiddleTextView.spacingFromMiddle)
-        loadingIndicator.setSameCenterX(view: self)
+        loadingIndicator.layout {
+            $0.addAsSubview(to: self)
+            
+            $0.spacing(from: .bottom, to: .top, view: label, constant: MiddleTextView.spacingFromMiddle)
+            
+            $0.equalToCenterX = self
+        }
     }
 
 }
