@@ -1,6 +1,7 @@
 import UIKit
 import JVView
 import JVConstraintEdges
+import JVDebugProcessorMacros
 
 open class MiddleTextView: UIView {
     
@@ -30,14 +31,14 @@ open class MiddleTextView: UIView {
         
         super.init(frame: CGRect.zero)
         
-        addLabel()
-        addLoadingIndicator()
+        setupLabel()
+        setupLoadingIndicator()
         
         change(mode: queryingText == nil ? .notQuerying : .querying)
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        Unsupported()
     }
     
     public func change(mode: Mode) {
@@ -51,28 +52,23 @@ open class MiddleTextView: UIView {
         }
     }
 
-    private func addLabel() {
+}
+
+extension MiddleTextView: ModelCreator {
+    private func setupLabel() {
         let edges = ConstraintEdges(width: MiddleTextView.constraintEdgesWidth, setHeightToNil: true)
         
-        label.layout {
-            $0.fill(toSuperview: self, edges: edges)
-            
-            $0.topAnchor.constraint(equalTo: centerYAnchor, constant: MiddleTextView.spacingFromMiddle).isActive = true
-        }
+        label.fill(toSuperview: self, edges: edges)
         
+        label.topAnchor.constraint(equalTo: centerYAnchor, constant: MiddleTextView.spacingFromMiddle).isActive = true
         label.textAlignment = .center
     }
     
-    private func addLoadingIndicator() {
-        loadingIndicator.layout {
-            $0.addAsSubview(to: self)
-            
-            $0.spacing(from: .bottom, to: .top, view: label, constant: MiddleTextView.spacingFromMiddle)
-            
-            $0.equalToCenterX = self
-        }
+    private func setupLoadingIndicator() {
+        loadingIndicator.addAsSubview(to: self)
+        
+        loadingIndicator.spacing(from: .bottom, to: .top, view: label, constant: MiddleTextView.spacingFromMiddle)
+        
+        loadingIndicator.equalToCenterX = self
     }
-
 }
-
-
