@@ -1,6 +1,6 @@
 {
   "name": "JVMiddleTextView",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "summary": "A short description of JVMiddleTextView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jasperav/JVMiddleTextView",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/Jasperav/JVMiddleTextView.git",
-    "tag": "0.2.8"
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "12.0"
   },
   "source_files": "JVMiddleTextView/Classes/**/*",
   "dependencies": {
@@ -24,6 +24,9 @@
 
     ],
     "JVView": [
+
+    ],
+    "JVDebugProcessorMacros": [
 
     ]
   }

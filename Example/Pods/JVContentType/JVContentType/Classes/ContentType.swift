@@ -1,11 +1,11 @@
 /// Only final classes/structs can adopt this protocol
 public protocol ContentType: Hashable {
-
+    
     /// All reusable content types should be in here with a non-nil id.
     static var allTypes: Set<Self> { get set }
     
-    /// Getting a reusable content type
-    static func getContentType(contentTypeId: String) -> Self
+    //    /// Getting a reusable content type
+    //    static func getContentType(contentTypeId: String) -> Self
     
     /// For base/reusable content types, the id is filled.
     /// Those content types should be in allTypes with a non-nil id.
@@ -20,6 +20,17 @@ public protocol ContentType: Hashable {
 public extension ContentType {
     
     /// Adds the reusabele to the Set of content types.
+    func addToAllTypes<T: RawRepresentable>(contentTypeId: T) where T.RawValue == String {
+        var copy = self
+        copy.contentTypeId = contentTypeId.rawValue
+        
+        assert(!Self.allTypes.contains(copy))
+        
+        Self.allTypes.insert(copy)
+    }
+    
+    /// Adds the reusabele to the Set of content types.
+    @available(*, deprecated, message: "Use the method with generic type T")
     func addToAllTypes() {
         assert(!Self.allTypes.contains(self))
         
@@ -46,7 +57,9 @@ public extension ContentType {
     init(old: Self, newContentTypeId: String? = nil) {
         self = old
         contentTypeId = newContentTypeId
+        #if DEBUG
         validateIsStruct(self)
+        #endif
     }
     
     func copy(newContentTypeId: String? = nil) -> Self {
@@ -54,9 +67,9 @@ public extension ContentType {
     }
 }
 
+#if DEBUG
 func validateIsStruct(_ obj: Any) {
-    #if DEBUG
     let mirror = Mirror(reflecting: obj)
     guard mirror.displayStyle == .struct else { fatalError("Call the other copy.") }
-    #endif
 }
+#endif

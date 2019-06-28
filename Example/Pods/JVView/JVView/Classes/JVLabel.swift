@@ -1,7 +1,6 @@
 import UIKit
 import JVCurrentDevice
 import JVContentType
-import JVSizeable
 import JVConstraintEdges
 
 open class JVLabel: UILabel {

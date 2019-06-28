@@ -34,6 +34,20 @@ public struct ConstraintEdges: Decodable {
         self.bottom = bottom
     }
     
+    public init(rectEdge: UIRectEdge) {
+        if rectEdge == .all {
+            self = .zero
+        } else if rectEdge == .top {
+            self = .init(top: 0)
+        } else if rectEdge == .right {
+            self = .init(trailing: 0)
+        } else if rectEdge == .bottom {
+            self = .init(bottom: 0)
+        } else if rectEdge == .left {
+            self = .init(leading: 0)
+        }
+    }
+    
     public init(leading: CGFloat) {
         self.init(leading: leading, trailing: nil, top: nil, bottom: nil)
     }
@@ -144,6 +158,24 @@ public struct ConstraintEdges: Decodable {
     /// Leave nil to add it to all edges
     public mutating func add(_ value: CGFloat, edge: UIRectEdge) {
         self = added(value, edge: edge)
+    }
+    
+    public func change(edge: UIRectEdge, value: CGFloat) -> ConstraintEdges {
+        assert(edge != .all)
+        
+        if edge == .top {
+            return ConstraintEdges(leading: leading, trailing: trailing, top: value, bottom: bottom)
+        }
+        
+        if edge == .right {
+            return ConstraintEdges(leading: leading, trailing: value, top: top, bottom: bottom)
+        }
+        
+        if edge == .bottom {
+            return ConstraintEdges(leading: leading, trailing: trailing, top: top, bottom: value)
+        }
+        
+        return ConstraintEdges(leading: value, trailing: trailing, top: top, bottom: bottom)
     }
     
     public func added(_ value: CGFloat, edge: UIRectEdge) -> ConstraintEdges {

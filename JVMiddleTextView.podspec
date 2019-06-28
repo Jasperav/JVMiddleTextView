@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JVMiddleTextView'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A short description of JVMiddleTextView.'
 
   s.description      = <<-DESC

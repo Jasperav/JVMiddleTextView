@@ -2,32 +2,13 @@ import DeviceKit
 
 public struct CurrentDevice {
     
-    private static let device = Device()
+    private static let device = Device.current
+    
     public static let isRightToLeftLanguage = UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft
     public static let isTablet = device.isPad
     public static let screenBounds = UIScreen.main.bounds.width
     
-    // This MUST be a computed property since the keyWindow is nil when starting up the app.
-    public static var availableWidthInSafeArea: CGFloat {
-        get {
-            guard let window = UIApplication.shared.keyWindow else { return UIScreen.main.bounds.width }
-            let left = window.safeAreaInsets.left
-            let right = window.safeAreaInsets.right
-            return UIScreen.main.bounds.width - left - right
-        }
-    }
-    
-    // This MUST be a computed property since the keyWindow is nil when starting up the app.
-    public static var availableHeightInSafeArea: CGFloat {
-        get {
-            guard let window = UIApplication.shared.keyWindow else { return UIScreen.main.bounds.height }
-            let top = window.safeAreaInsets.top
-            let bottom = window.safeAreaInsets.bottom
-            return UIScreen.main.bounds.height - top - bottom
-        }
-    }
-    
-    public static func getValue<T>(tablet: T, phone: T) -> T {
+    public static func valueFor<T>(tablet: T, phone: T) -> T {
         return CurrentDevice.isTablet ? tablet : phone
     }
     
@@ -53,9 +34,9 @@ public struct CurrentDevice {
              .iPhone8,
              .iPhone8Plus,
              .iPhoneX,
-             .iPhoneXs,
-             .iPhoneXsMax,
-             .iPhoneXr,
+             .iPhoneXS,
+             .iPhoneXSMax,
+             .iPhoneXR,
              .homePod:
             return .mobileBig
         case .iPad2,
@@ -81,7 +62,7 @@ public struct CurrentDevice {
         }
     }()
     
-    public static func getFreeDiskSpaceInMb() -> Int64 {
+    public static var freeDiskSpaceInMb: Int64 {
         if let space = try? URL(fileURLWithPath: NSHomeDirectory() as String).resourceValues(forKeys: [URLResourceKey.volumeAvailableCapacityForImportantUsageKey]).volumeAvailableCapacityForImportantUsage {
             return space ?? 0 / 1_048_576
         } else {
