@@ -13,7 +13,7 @@ PODS:
   - JVGradientLayer (0.1.2):
     - JVCAGradientLayerExtensions
     - JVContentType
-  - JVMiddleTextView (0.3.0):
+  - JVMiddleTextView (0.3.1):
     - JVConstraintEdges
     - JVDebugProcessorMacros
     - JVView
@@ -64,7 +64,7 @@ SPEC CHECKSUMS:
   JVDebugProcessorMacros: 649937b69695be6ed3f4277066e4dd7349f94e12
   JVFontUtils: e390fee698f64889fafa4ccabd25084bdbf136b7
   JVGradientLayer: 34e464b6f5624370653606c94229e81dcf1282ea
-  JVMiddleTextView: 4d39a460df63aedefdc9ececece87f875b842052
+  JVMiddleTextView: 48e70ee62d8321463d11e40e2c2fc992b6e821f4
   JVRestartable: 008c47ae1b36de3bf2cdad2299852231b5749f2a
   JVShapeHalfMoon: 31444957e7a226e800003afaee2634c8ba8129a1
   JVView: 625f640f018dbd5aa5d40fac20df6c0e980b561a
